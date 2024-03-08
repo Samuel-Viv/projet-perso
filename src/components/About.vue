@@ -2,10 +2,10 @@
      <section class="container py-3 apropos ">
       <div class="carte row my-3 mx-2 p-5">
         <div class="apropos_presentation col-md-6 ">
-          <div class="apropos" id="apropos">
-            <h3>À propos</h3>
+          <div class="apropos " id="apropos">
+            <h3 class="titres ">À propos</h3>
           </div>
-          <div class="paragraphe">
+          <div class="paragraphe mt-3">
             <p>
               Passionné par l'informatique et des nouvelles technologie, je suit actuellement
               une fomation de <strong>développeur web</strong> au seins du centre européen de
@@ -28,17 +28,17 @@
         <div class="col-md-6">
           <img src="" alt="Samuel VIVIER">
           <div class="hard-skills">
-            <h3>Hard Skills</h3>
+            <h3 class="titres">Hard Skills</h3>
 
             <div class="logo">
               <img src="../assets/images/html-5.png" alt="Html5">
               <img src="../assets/images/css-3.png" alt="CSS3">
               <img src="../assets/images/js.png" alt="JavaScript">
-              <img src="../assets/images/git.png" alt="git">
-              <img src="../assets/images/github.png" alt="github">
-              <img src="../assets/images/vue.jpg" alt="vue.js">
-              <img src="../assets/images/react.jpg" alt="">
-              <img src="../assets/images/angular.jpg" alt="angular">
+              <img src="../assets/images/git.png" alt="Git">
+              <img src="../assets/images/github.png" alt="Github">
+              <img src="../assets/images/vue.jpg" alt="Vue.js">
+              <img src="../assets/images/react.jpg" alt="React">
+              <img src="../assets/images/angular.jpg" alt="Angular">
             </div>
 
           </div>
@@ -72,7 +72,12 @@
     height: 100px;
     border-radius:25px ;
 }
-
+.titres{
+    font-family: "Playfair Display", serif;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+}
 .apropos{
     /* display: none; */
 }
